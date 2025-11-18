@@ -1,67 +1,102 @@
-# Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
-## Problem Title
-SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
-## Problem Description
-### Background
+# Smart India Hackathon Workshop  
+# Date:18-11-2025
+## Reference Number:212224240184
+## Name:VINOLIA ALAINA. R
 
-Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause significant economic losses, threaten food security, and disrupt rural livelihoods. Despite its importance, many farmers—especially smallholders in resource-limited areas—struggle to access practical, actionable information on biosecurity protocols, risk assessment tools, and regulatory compliance requirements.
+## Problem Title  
+**SIH 38429: AI-Driven Community Disaster Early-Warning & Response Management Portal for Rural Regions**
 
-### Problem Description
+---
 
-There is an urgent need for a user-friendly, digital platform that empowers farmers to implement, monitor, and sustain robust biosecurity practices on their farms. This portal should offer end-to-end solutions for farm-level biosecurity management by integrating:
+## Problem Description  
 
-• Customizable risk assessment tools based on local epidemiological conditions.
-• Interactive training modules and best practice guidelines tailored for pig and poultry production systems.
-• Compliance tracking features aligned with regulatory frameworks to help farmers work toward disease-free compartment recognition.
-• Real-time alerts and monitoring dashboards for disease outbreaks and biosecurity breaches.
-• Multilingual and mobile-first design to ensure accessibility in remote and rural areas.
+### Background  
+Rural and flood-prone regions in India often face delayed or generic disaster warnings, limited communication channels, and poorly coordinated emergency response. This results in loss of lives, livestock, crops, and property. There is a need for a **hyperlocal, multilingual, digital warning & response system** that ensures timely alerts and effective rescue coordination.
 
-The platform should also enable data collection and analysis for policy support, foster collaborative networking among stakeholders (farmers, veterinarians, extension workers, etc.), and promote long-term resilience and sustainability in the livestock sector.
+### Problem Description  
+A **mobile + web platform** powered by **AI-based early warning, community incident reporting, evacuation guidance, and integrated rescue coordination** is required. The solution will include:
 
-### Expected Outcomes
+• Hyperlocal alerts via app/SMS/IVR  
+• Community reporting with GPS + images/voice  
+• Real-time responder dashboard & resource tracking  
+• Safe-route evacuation & shelter mapping  
+• Digital post-disaster claim support  
+• Multilingual offline-friendly interface  
 
-• Enhanced farmer awareness and education on biosecurity.
-• Improved risk management at the farm level as well as self-assessment.
-• Easy access to customized biosecurity protocols and guidelines.
-• Digital record-keeping and compliance tracking.
-• Timely alerts and disease notifications to farmers.
-• Healthier livestock and increased farm productivity.
-• Empowerment of small and marginal farmers with limited resources.
-• Support to authorities in data-driven surveillance and policy making.
-• Stronger collaboration across the livestock ecosystem.
-• Improved national preparedness for zoonotic and transboundary diseases.
+---
 
-## Problem Creater's Organization
-Ministry of Fisheries, Animal Husbandry & Dairying
+## Expected Outcomes  
 
-## Theme
-Department of Animal Husbandry & Dairying (DoAH&D)
+• Timely warnings & reduced disaster casualties  
+• Better decision-making using real-time field data  
+• Efficient evacuation & resource allocation  
+• Faster post-disaster compensation & recovery  
+• Improved preparedness & community resilience  
 
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+---
 
-## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+## Problem Creater's Organization  
+Ministry of Home Affairs / NDMA
 
-## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+---
 
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+## Theme  
+Public Safety, Disaster Management, AI for Social Impact
 
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+---
+
+## Proposed Solution  
+
+ **AI-powered alert engine** using weather, river level & geospatial models  
+ **Citizen app** for alerts, reporting & guidance (voice, SMS, offline-mode)  
+ **Rescue dashboard** for authorities, NGOs & volunteers  
+ **Evacuation & safe-route recommender**  
+ **Relief & claim digitization system**  
+
+**Uniqueness:** Hyperlocal alerting + community data + AI-driven evacuation planning in one integrated platform.
+
+---
+
+## Technical Approach  
+
+**Tech Stack:**  
+- Frontend: React.js / Flutter  
+- Backend: Node.js / Python (Django)  
+- DB: PostgreSQL + Geo-Database (PostGIS)  
+- ML: Python, Time-series forecasting, Geo-analytics  
+- Hosting: AWS/ Azure / GCP  
+- Communication: SMS + IVR + Push Notifications  
+
+**Methodology:**  
+1. Data collection & model training  
+2. Rapid prototype (App + Dashboard)  
+3. Pilot deployment in flood-prone village  
+4. Feedback & scaling  
+
+---
+
+## Feasibility & Viability  
+
+• Technically feasible using existing APIs & open data  
+• Scalable to multiple districts and disaster types  
+• Offline + multilingual support ensures inclusiveness  
+
+**Risks:** internet issues, adoption resistance, data reliability  
+**Mitigation:** SMS/IVR fallback, community training, validation checks  
+
+---
+
+## Impact & Benefits  
+
+• Saves lives through timely alerts  
+• Reduces economic loss & resource wastage  
+• Strengthens government-community coordination  
+• Builds long-term disaster resilience  
+
+---
+
+## Research & References  
+
+1. NDMA Flood Management Reports  
+2. IMD & ISRO Weather + Satellite Data  
+3. UNDRR Early Warning Frameworks  
